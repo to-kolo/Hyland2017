@@ -1,0 +1,16 @@
+﻿<Window x:Class="BetterATM.AccountScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BetterATM"
+        mc:Ignorable="d"
+        Title="AccountScreen" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="Balance" Content="Balance" HorizontalAlignment="Left" Height="25" Margin="87,45,0,0" VerticalAlignment="Top" Width="75" Click="Balance_Click"/>
+        <Button x:Name="Withdraw" Content="Withdraw" HorizontalAlignment="Left" Height="25" Margin="87,97,0,0" VerticalAlignment="Top" Width="75" Click="Withdraw_Click"/>
+        <Button x:Name="Deposit" Content="Desposit" HorizontalAlignment="Left" Height="25" Margin="87,143,0,0" VerticalAlignment="Top" Width="75" Click="Deposit_Click"/>
+        <Button x:Name="Logout" Content="Logout" HorizontalAlignment="Left" Height="25" Margin="87,188,0,0" VerticalAlignment="Top" Width="75" Click="Logout_Click"/>
+
+    </Grid>
+</Window>
