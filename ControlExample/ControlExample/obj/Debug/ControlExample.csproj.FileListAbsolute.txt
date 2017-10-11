@@ -12,3 +12,6 @@ c:\users\user2\documents\visual studio 2015\Projects\ControlExample\ControlExamp
 c:\users\user2\documents\visual studio 2015\Projects\ControlExample\ControlExample\obj\Debug\ControlExample.csproj.GenerateResource.Cache
 c:\users\user2\documents\visual studio 2015\Projects\ControlExample\ControlExample\obj\Debug\ControlExample.exe
 c:\users\user2\documents\visual studio 2015\Projects\ControlExample\ControlExample\obj\Debug\ControlExample.pdb
+C:\Users\User2\Source\Repos\Hyland2017\ControlExample\ControlExample\bin\Debug\ControlExample.exe.config
+C:\Users\User2\Source\Repos\Hyland2017\ControlExample\ControlExample\obj\Debug\ControlExample.exe
+C:\Users\User2\Source\Repos\Hyland2017\ControlExample\ControlExample\obj\Debug\ControlExample.pdb
