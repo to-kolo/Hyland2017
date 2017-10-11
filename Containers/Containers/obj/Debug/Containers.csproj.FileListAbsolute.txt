@@ -12,3 +12,6 @@ c:\users\user2\documents\visual studio 2015\Projects\Containers\Containers\obj\D
 c:\users\user2\documents\visual studio 2015\Projects\Containers\Containers\obj\Debug\Containers.csproj.GenerateResource.Cache
 c:\users\user2\documents\visual studio 2015\Projects\Containers\Containers\obj\Debug\Containers.exe
 c:\users\user2\documents\visual studio 2015\Projects\Containers\Containers\obj\Debug\Containers.pdb
+C:\Users\User2\Source\Repos\Hyland2017\Containers\Containers\bin\Debug\Containers.exe.config
+C:\Users\User2\Source\Repos\Hyland2017\Containers\Containers\obj\Debug\Containers.exe
+C:\Users\User2\Source\Repos\Hyland2017\Containers\Containers\obj\Debug\Containers.pdb
