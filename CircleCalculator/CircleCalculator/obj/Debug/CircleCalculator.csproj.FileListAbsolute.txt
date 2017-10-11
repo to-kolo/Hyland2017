@@ -12,3 +12,6 @@ c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalc
 c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.csproj.GenerateResource.Cache
 c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.exe
 c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.pdb
+C:\Users\User2\Source\Repos\Hyland2017\CircleCalculator\CircleCalculator\bin\Debug\CircleCalculator.exe.config
+C:\Users\User2\Source\Repos\Hyland2017\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.exe
+C:\Users\User2\Source\Repos\Hyland2017\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.pdb
