@@ -1,0 +1,14 @@
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\bin\Debug\CircleCalculator.exe.config
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.csprojResolveAssemblyReference.cache
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\MainWindow.g.cs
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\App.g.cs
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator_MarkupCompile.cache
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator_MarkupCompile.lref
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\bin\Debug\CircleCalculator.exe
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\bin\Debug\CircleCalculator.pdb
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\MainWindow.baml
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.g.resources
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.Properties.Resources.resources
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.csproj.GenerateResource.Cache
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.exe
+c:\users\user2\documents\visual studio 2015\Projects\CircleCalculator\CircleCalculator\obj\Debug\CircleCalculator.pdb

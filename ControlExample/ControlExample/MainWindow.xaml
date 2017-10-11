@@ -1,0 +1,17 @@
+﻿<Window x:Class="ControlExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="This is a label!" Width="100" Height="25"></Label>
+        <!-- Added via Designer -->
+        <TextBox x:Name="textBox" HorizontalAlignment="Right" Height="17" Margin="10,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left"  Margin="145,38,0,0" VerticalAlignment="Top" Width="362"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Height="16" Margin="43,268,0,0" VerticalAlignment="Top" Width="73" Cursor="Pen" IsChecked="True" Checked="checkBox_Checked" Unchecked="checkBox_Checked"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="23" Margin="414,261,0,0" VerticalAlignment="Top" Click="button_Click" />
+    </Grid>
+</Window>

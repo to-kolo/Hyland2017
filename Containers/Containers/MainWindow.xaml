@@ -1,0 +1,19 @@
+﻿<Window x:Class="Containers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Containers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        
+        <Grid Name="firstGrid" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Button Name="firstGridButton" Height="100" Width="100" Content="Button!" Click="firstGridButton_Click"></Button>
+        </Grid>
+        <Grid Name="secondGrid" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Name="secondGridButton" Height="100" Width="100" Content="Second Button" Click="secondGridButton_Click"></Button>
+        </Grid >
+            
+     </StackPanel>
+</Window>
