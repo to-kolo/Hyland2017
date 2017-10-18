@@ -21,6 +21,7 @@
             </TextBox.RenderTransform>
         </TextBox>
         <Button x:Name="btnlogin" Content="Login" HorizontalAlignment="Left" Height="36" Margin="218,209,0,0" VerticalAlignment="Top" Width="120" Click="btnlogin_Click"/>
+        <Label x:Name="label" Content="Login credentials not correct" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,156,0,0" Height="27" Width="137" FontSize="7" Visibility="Hidden"/>
 
     </Grid>
 </Window>

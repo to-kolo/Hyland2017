@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace BetterATM
 {
-    class Account
+     public class Account
     {
         string userName;
         double balance;
         string password;
 
-        Account(string userName, double balance, string password)
+       public Account(string userName, double balance, string password)
         {
             this.userName = userName;
             this.balance = balance;
             this.password = password;
+
+
         }
 
         public bool checkPassword(string password)
@@ -30,11 +32,7 @@ namespace BetterATM
                 return false;
             }
         }
-        IList<Account>  new IList
-            {
-
-            }
-        Account Tommy = new Account("tkolo", 0, "stuff");
+        
 
     }
 }

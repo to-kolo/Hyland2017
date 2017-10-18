@@ -80,6 +80,14 @@ namespace BetterATM {
         #line default
         #line hidden
         
+        
+        #line 24 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label label;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -136,6 +144,9 @@ namespace BetterATM {
             
             #line default
             #line hidden
+            return;
+            case 6:
+            this.label = ((System.Windows.Controls.Label)(target));
             return;
             }
             this._contentLoaded = true;

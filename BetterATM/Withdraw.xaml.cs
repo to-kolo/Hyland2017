@@ -23,5 +23,18 @@ namespace BetterATM
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Window AccountScreen = new AccountScreen();
+            AccountScreen.Closed += AccountScreen_Closed;
+            AccountScreen.Show();
+            this.Hide();
+        }
+
+        private void AccountScreen_Closed(object sender, EventArgs e)
+        {
+            this.Show();
+        }
     }
 }

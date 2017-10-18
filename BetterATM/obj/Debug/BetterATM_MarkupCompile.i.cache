@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User2\Source\Repos\Hyland2017\BetterATM\obj\Debug\
+C:\Users\user2\Source\Repos\Hyland2017\BetterATM\obj\Debug\
 BetterATM
 none
 false
 DEBUG;TRACE
-C:\Users\User2\Source\Repos\Hyland2017\BetterATM\App.xaml
+C:\Users\user2\Source\Repos\Hyland2017\BetterATM\App.xaml
 5952097031
 
-14116326213
+14-688411958
 13738642453
 AccountScreen.xaml;Balance.xaml;Desposit.xaml;MainWindow.xaml;Withdraw.xaml;
 
-True
+False
 
