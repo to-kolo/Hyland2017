@@ -1,0 +1,20 @@
+﻿<Window x:Class="IceCreamShopSimulator.SelectFlavorsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IceCreamShopSimulator"
+        mc:Ignorable="d"
+        Title="SelectFlavorsWindow" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="What flavor(s) would you like" HorizontalAlignment="Left" Margin="56,39,0,0" VerticalAlignment="Top" Width="181"/>
+        <CheckBox x:Name="Flavor1" Content="Vanilla" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor2" Content="Chocolate" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor3" Content="Strawberry" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor4" Content="Cake Batter" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor5" Content="Peanut Butter" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor6" Content="Mint" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Height="29" Margin="102,203,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
+
+    </Grid>
+</Window>

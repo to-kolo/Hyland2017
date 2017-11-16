@@ -1,0 +1,15 @@
+﻿<Window x:Class="IceCreamShopSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IceCreamShopSimulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+       
+        <Button x:Name="button" Content="Let's Build My Dessert!" HorizontalAlignment="Left" Height="52" Margin="188,203,0,0" VerticalAlignment="Top" Width="140" Click="button_Click"/>
+        <Label x:Name="label" Content="Welcome to the Local Ice Cream Shop!" HorizontalAlignment="Left" Height="80" Margin="146,71,0,0" VerticalAlignment="Top" Width="224"/>
+
+    </Grid>
+</Window>

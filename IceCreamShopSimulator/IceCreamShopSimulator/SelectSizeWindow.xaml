@@ -1,0 +1,16 @@
+﻿<Window x:Class="IceCreamShopSimulator.SelectSizeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IceCreamShopSimulator"
+        mc:Ignorable="d"
+        Title="SelectSizeWindow" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="What size would you like?" HorizontalAlignment="Left" Margin="43,32,0,0" VerticalAlignment="Top" Height="66" Width="186"/>
+        <Button x:Name="Small" Content="Small" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="75" Click="Small_Click"/>
+        <Button x:Name="Large" Content="Large" HorizontalAlignment="Left" Margin="207,147,0,0" VerticalAlignment="Top" Width="75" Click="Large_Click"/>
+        <Button x:Name="Medium" Content="Medium" HorizontalAlignment="Left" Margin="108,147,0,0" VerticalAlignment="Top" Width="75" Click="Medium_Click"/>
+
+    </Grid>
+</Window>
