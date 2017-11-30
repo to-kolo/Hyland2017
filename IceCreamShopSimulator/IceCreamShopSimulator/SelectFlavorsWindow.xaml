@@ -8,12 +8,12 @@
         Title="SelectFlavorsWindow" Height="300" Width="300">
     <Grid>
         <Label x:Name="label" Content="What flavor(s) would you like" HorizontalAlignment="Left" Margin="56,39,0,0" VerticalAlignment="Top" Width="181"/>
-        <CheckBox x:Name="Flavor1" Content="Vanilla" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="Flavor2" Content="Chocolate" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="Flavor3" Content="Strawberry" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="Flavor4" Content="Cake Batter" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="Flavor5" Content="Peanut Butter" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="Flavor6" Content="Mint" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Flavor1" Content="Vanilla" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Checked="Flavor1_Checked" Unchecked="Flavor1_UnChecked"/>
+        <CheckBox x:Name="Flavor2" Content="Chocolate" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Checked="Flavor2_Checked" Unchecked="Flavor2_UnChecked"/>
+        <CheckBox x:Name="Flavor3" Content="Strawberry" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Checked="Flavor3_Checked" Unchecked="Flavor3_UnChecked"/>
+        <CheckBox x:Name="Flavor4" Content="Cake Batter" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Checked="Flavor4_Checked" Unchecked="Flavor4_UnChecked"/>
+        <CheckBox x:Name="Flavor5" Content="Peanut Butter" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Checked="Flavor5_Checked" Unchecked="Flavor5_UnChecked"/>
+        <CheckBox x:Name="Flavor6" Content="Mint" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Checked="Flavor6_Checked" Unchecked="Flavor6_UnChecked"/>
         <Button x:Name="button" Content="Continue" HorizontalAlignment="Left" Height="29" Margin="102,203,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
 
     </Grid>

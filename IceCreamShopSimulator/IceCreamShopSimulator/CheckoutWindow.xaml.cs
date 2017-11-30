@@ -17,11 +17,14 @@ namespace IceCreamShopSimulator
     /// <summary>
     /// Interaction logic for CheckoutWindow.xaml
     /// </summary>
+    /// 
+    /// Add all the indexes of the previous functions and associate each to a set ammount to price ratio
     public partial class CheckoutWindow : Window
     {
         public CheckoutWindow()
         {
             InitializeComponent();
         }
+        
     }
 }

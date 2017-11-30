@@ -15,10 +15,11 @@ using System.Windows.Shapes;
 namespace IceCreamShopSimulator
 {
     /// <summary>
-    /// Interaction logic for SelectToppingsWindow.xaml
+    /// Adds an additional way to customize your dessert. 
     /// </summary>
     public partial class SelectToppingsWindow : Window
     {
+        int ToppingWeight = 0;
         public SelectToppingsWindow()
         {
             InitializeComponent();
@@ -26,37 +27,37 @@ namespace IceCreamShopSimulator
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button5_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button6_Click(object sender, RoutedEventArgs e)
         {
-
+            ToppingWeight = +1;
         }
 
         private void button7_Click(object sender, RoutedEventArgs e)
@@ -70,6 +71,11 @@ namespace IceCreamShopSimulator
         private void Checkout_Closed(object sender, EventArgs e)
         {
             this.Show();
+        }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            ToppingWeight = 0;
         }
     }
 }

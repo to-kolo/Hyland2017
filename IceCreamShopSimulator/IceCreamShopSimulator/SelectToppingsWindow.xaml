@@ -16,14 +16,14 @@
         <Label x:Name="label6" Content="Fudge" HorizontalAlignment="Left" Margin="34,191,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label7" Content="Hot Peanut Butter
                " HorizontalAlignment="Left" Margin="34,217,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Add Topping" HorizontalAlignment="Left" Margin="207,64,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <Button x:Name="button1" Content="Add Topping" HorizontalAlignment="Left" Margin="207,90,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="MMs" Content="Add Topping" HorizontalAlignment="Left" Margin="207,64,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="Oreos" Content="Add Topping" HorizontalAlignment="Left" Margin="207,90,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
         <Button x:Name="button2" Content="Add Topping" HorizontalAlignment="Left" Margin="207,118,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
         <Button x:Name="button3" Content="Add Topping" HorizontalAlignment="Left" Margin="207,144,0,0" VerticalAlignment="Top" Width="75" Click="button3_Click"/>
         <Button x:Name="button4" Content="Add Topping" HorizontalAlignment="Left" Margin="207,172,0,0" VerticalAlignment="Top" Width="75" Click="button4_Click"/>
         <Button x:Name="button5" Content="Add Topping" HorizontalAlignment="Left" Margin="207,197,0,0" VerticalAlignment="Top" Width="75" Click="button5_Click"/>
         <Button x:Name="button6" Content="Add Topping" HorizontalAlignment="Left" Margin="207,223,0,0" VerticalAlignment="Top" Width="75" Click="button6_Click"/>
-        <Button x:Name="button7" Content="Continue" HorizontalAlignment="Left" Height="27" Margin="112,243,0,0" VerticalAlignment="Top" Width="80" Click="button7_Click"/>
-
+        <Button x:Name="button7" Content="Continue" HorizontalAlignment="Left" Height="27" Margin="207,252,0,0" VerticalAlignment="Top" Width="80" Click="button7_Click"/>
+        <Button x:Name="button8" Content="Reset Toppings!" HorizontalAlignment="Left" Height="27" Margin="34,252,0,0" VerticalAlignment="Top" Width="96" Click="button8_Click"/>
     </Grid>
 </Window>

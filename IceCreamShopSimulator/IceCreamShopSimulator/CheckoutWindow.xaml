@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="CheckoutWindow" Height="300" Width="300">
     <Grid>
-        
+        <Label x:Name="label" Content="Your Total: " HorizontalAlignment="Left" Height="38" Margin="42,18,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="204,18,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
