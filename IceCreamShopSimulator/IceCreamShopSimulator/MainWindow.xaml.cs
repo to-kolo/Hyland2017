@@ -20,6 +20,11 @@ namespace IceCreamShopSimulator
     /// </summary>
     public partial class MainWindow : Window
     {
+        CheckoutWindow CheckoutWindow;
+        SelectSizeWindow SelectSizeWindow;
+        SelectToppingsWindow SelectToppingsWindow;
+        SelectFlavorsWindow SelectFlavorsWindow;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,13 +32,47 @@ namespace IceCreamShopSimulator
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Window SelectSizeWindow = new SelectSizeWindow();
+            CheckoutWindow = new CheckoutWindow();
+            CheckoutWindow.Closed += CheckoutWindow_Closed;
+            CheckoutWindow.Show();
+            this.Hide();
+
+            SelectSizeWindow = new SelectSizeWindow();
             SelectSizeWindow.Closed += SelectSizeWindow_Closed;
             SelectSizeWindow.Show();
             this.Hide();
+
+            
         }
+
+        private void CheckoutWindow_Closed(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
         private void SelectSizeWindow_Closed(object sender, EventArgs e)
         {
+            SelectFlavorsWindow = new SelectFlavorsWindow();
+            SelectFlavorsWindow.Closed += SelectFlavorsWindow_Closed;
+            SelectFlavorsWindow.Show();
+
+            this.Show();
+        }
+
+        private void SelectFlavorsWindow_Closed(object sender, EventArgs e)
+        {
+            SelectToppingsWindow = new SelectToppingsWindow();
+            SelectToppingsWindow.Closed += SelectToppingsWindow_Closed;
+            SelectToppingsWindow.Show();
+            this.Hide();
+
+            this.Show();
+        }
+
+        private void SelectToppingsWindow_Closed(object sender, EventArgs e)
+        {
+
+
             this.Show();
         }
     }

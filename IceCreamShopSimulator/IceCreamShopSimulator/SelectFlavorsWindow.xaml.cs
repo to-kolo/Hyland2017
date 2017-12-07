@@ -29,9 +29,8 @@ namespace IceCreamShopSimulator
         private void button_Click(object sender, RoutedEventArgs e)
         {
             flavors = +6;
-            Window SelectToppingsWindow = new SelectToppingsWindow();
-            SelectToppingsWindow.Closed += SelectToppingsWindow_Closed;
-            SelectToppingsWindow.Show();
+            
+            
             this.Hide();
         }
 
@@ -70,34 +69,34 @@ namespace IceCreamShopSimulator
         {
             flavors = +1;
         }
-        private void Flavor1_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor1_UnChecked(object sender, RoutedEventArgs e)
         {
             flavors = -1;
         }
 
-        private void Flavor2_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor2_UnChecked(object sender, RoutedEventArgs e)
         {
             flavors = -1;
         }
 
-        private void Flavor3_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor3_UnChecked(object sender, RoutedEventArgs e)
         {
             flavors = -1;
         }
 
-        private void Flavor6_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor6_UnChecked(object sender, RoutedEventArgs e)
         {
             flavors = -1;
         }
 
-        private void Flavor5_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor5_UnChecked(object sender, RoutedEventArgs e)
         {
-            flavors = +1;
+            flavors = -1;
         }
 
-        private void Flavor4_Unchecked(object sender, RoutedEventArgs e)
+        private void Flavor4_UnChecked(object sender, RoutedEventArgs e)
         {
-            flavors = +1;
+            flavors = -1;
         }
     }
 

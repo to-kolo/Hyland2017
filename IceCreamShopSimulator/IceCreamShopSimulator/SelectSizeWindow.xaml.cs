@@ -19,7 +19,7 @@ namespace IceCreamShopSimulator
     /// </summary>
     public partial class SelectSizeWindow : Window
     {
-        int weight = 0;
+        public int weight = 0;
 
         public enum Sizes
         {
@@ -31,21 +31,18 @@ namespace IceCreamShopSimulator
         public SelectSizeWindow()
         {
             InitializeComponent();
+            
         }
 
         private void Small_Click(object sender, RoutedEventArgs e)
         {
             weight = (int)Sizes.Small;
-            Window SelectFlavorsWindow = new SelectFlavorsWindow();
-            SelectFlavorsWindow.Closed += SelectFlavorsWindow_Closed;
-            SelectFlavorsWindow.Show();
-            this.Hide();
+            MainWindow.;
+            
+            
         }
 
-        private void SelectFlavorsWindow_Closed(object sender, EventArgs e)
-        {
-            this.Show();
-        }
+        
 
         private void Medium_Click(object sender, RoutedEventArgs e)
         {

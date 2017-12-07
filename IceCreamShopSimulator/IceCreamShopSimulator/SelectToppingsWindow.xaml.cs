@@ -23,6 +23,7 @@ namespace IceCreamShopSimulator
         public SelectToppingsWindow()
         {
             InitializeComponent();
+            
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -62,16 +63,11 @@ namespace IceCreamShopSimulator
 
         private void button7_Click(object sender, RoutedEventArgs e)
         {
-            Window CheckoutWindow = new CheckoutWindow();
-            CheckoutWindow.Closed += Checkout_Closed;
-            CheckoutWindow.Show();
+            
             this.Hide();
         }
 
-        private void Checkout_Closed(object sender, EventArgs e)
-        {
-            this.Show();
-        }
+        
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
